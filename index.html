@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <title>Instagram</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand col-lg-10" href="https://www.instagram.com/"><i class="fab fa-instagram"></i>&nbspInstagram</a>
+        <button class="btn btn-outline-success my-2 my-sm-0 col-lg-1" type="submit" style="font-size: 0.8em;padding: 0%;">Create a new post</button>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-cog" style="color: black;"></i>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Profile</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Log out</a>
+            </div>
+        </div>
+    </nav> 
+
+
+
+<div class="row align-items-center justify-content-center" style="height: 15vh">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item " role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-square fa-2x"></i></a>
+        </li>&nbsp;
+        <li class="nav-item " role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-th fa-2x"></i></a>
+        </li>
+    </ul>
+</div>
+
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="container-fluid" style="background-color: lightgray;">
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;border: 0px;"><p>Roger Federer</p><p>12/14</p></h5>
+            <img class="card-img-top" src="https://www.wallpapertip.com/wmimgs/8-85816_roger-federer-imagen-hd.jpg" alt="Roger">
+            <div class="card-body">
+                <h5>567,330 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;border: 0px;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Lebron James</p><p>11/30</p></h5>
+            <img class="card-img-top" src="https://www.wallpapertip.com/wmimgs/10-100046_966886-title-lebron-james-lebron-james-on-the.jpg" alt="Lebron">
+            <div class="card-body">
+                <h5>236,538 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Lionel Messi</p><p>09/17</p></h5>
+            <img class="card-img-top" src="https://i2-prod.mirror.co.uk/incoming/article13260478.ece/ALTERNATES/s1200b/0_La-Liga-Santander-FC-Barcelona-v-Alaves.jpg" alt="Messi">
+            <div class="card-body">
+                <h5>1,048,112 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Usain Bolt</p><p>09/01</p></h5>
+            <img class="card-img-top" src="https://www.eluniverso.com/resizer/vtePZC9JjArsoO8VYnVYoOXhpWQ=/1041x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/XFNCBQ7ZAZE77HZCZJADJMGREI.jpg" alt="Bolt">
+            <div class="card-body">
+                <h5>188,349 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Michael Phelps</p><p>08/12</p></h5>
+            <img class="card-img-top" src="https://mk0lanoticiapwmx1x6a.kinstacdn.com/wp-content/uploads/2021/01/michael-phelps-depresion.jpg" alt="Phelps">
+            <div class="card-body">
+                <h5>101,456 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Tiger Woods</p><p>07/21</p></h5>
+            <img class="card-img-top" src="https://ca-times.brightspotcdn.com/dims4/default/e1df9f9/2147483647/strip/true/crop/4476x3130+0+0/resize/840x587!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa6%2F6a%2F51540a47690da6faf5e367207583%2F0bd8390323714131b599d2e32d7cc5d1" alt="Woods">
+            <div class="card-body">
+                <h5>132,429 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Tom Brady</p><p>05/30</p></h5>
+            <img class="card-img-top" src="https://as01.epimg.net/us/imagenes/2020/05/21/nfl/1590087394_161503_1590087581_noticia_normal_recorte1.jpg" alt="Brady">
+            <div class="card-body">
+                <h5>99,534 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Richie McCaw</p><p>05/06</p></h5>
+            <img class="card-img-top" src="https://www.odt.co.nz/sites/default/files/styles/odt_landscape_extra_large_4_3/public/story/2020/10/richie_mccaw_on_field_with_the_all_blacks_against_505d3467a5.jpg?itok=QaAEbgWo" alt="Mccaw">
+            <div class="card-body">
+                <h5>95,197 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+        <div class="card border-0" style="width: 45vw;margin-left: auto;margin-right: auto;margin-bottom: 8vh;">
+            <h5 class="card-title" style="display: flex; justify-content: space-between;margin-bottom:0;"><p>Floyd Mayweather</p><p>04/27</p></h5>
+            <img class="card-img-top" src="https://p4.wallpaperbetter.com/wallpaper/1000/855/664/5k-floyd-mayweather-boxing-wallpaper-preview.jpg" alt="Floyd">
+            <div class="card-body">
+                <h5>78,589 likes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div><i class="far fa-heart"></i></i>&nbsp;<input type="text" placeholder="Comment..."></div>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col p-2">
+                <img src="https://www.wallpapertip.com/wmimgs/8-85816_roger-federer-imagen-hd.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Roger">
+            </div>
+            <div class="col p-2">
+                <img src="https://www.wallpapertip.com/wmimgs/10-100046_966886-title-lebron-james-lebron-james-on-the.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Lebron">
+            </div>
+            <div class="col p-2">
+                <img src="https://i2-prod.mirror.co.uk/incoming/article13260478.ece/ALTERNATES/s1200b/0_La-Liga-Santander-FC-Barcelona-v-Alaves.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Messi">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col p-2">
+                <img src="https://www.eluniverso.com/resizer/vtePZC9JjArsoO8VYnVYoOXhpWQ=/1041x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/XFNCBQ7ZAZE77HZCZJADJMGREI.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Bolt">
+            </div>
+            <div class="col p-2">
+                <img src="https://mk0lanoticiapwmx1x6a.kinstacdn.com/wp-content/uploads/2021/01/michael-phelps-depresion.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Phelps">
+            </div>
+            <div class="col p-2">
+                <img src="https://ca-times.brightspotcdn.com/dims4/default/e1df9f9/2147483647/strip/true/crop/4476x3130+0+0/resize/840x587!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa6%2F6a%2F51540a47690da6faf5e367207583%2F0bd8390323714131b599d2e32d7cc5d1" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Woods">
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col p-2">
+                <img src="https://as01.epimg.net/us/imagenes/2020/05/21/nfl/1590087394_161503_1590087581_noticia_normal_recorte1.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Brady">
+            </div>
+            <div class="col p-2">
+                <img src="https://www.odt.co.nz/sites/default/files/styles/odt_landscape_extra_large_4_3/public/story/2020/10/richie_mccaw_on_field_with_the_all_blacks_against_505d3467a5.jpg?itok=QaAEbgWo" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Mccaw">
+            </div>
+            <div class="col p-2">
+                <img src="https://p4.wallpaperbetter.com/wallpaper/1000/855/664/5k-floyd-mayweather-boxing-wallpaper-preview.jpg" style="max-width: 100%;height: 60vh;object-fit: cover;" class="img-fluid" alt="Floyd">
+            </div>
+        </div>
+    </div>    
+  </div>
+</div>
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+       
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
